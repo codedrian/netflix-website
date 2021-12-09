@@ -49,7 +49,7 @@ img{
     background: url("images/1.jpg") no-repeat center center/cover;
 }
 
-.showcase::after{
+ .showcase::after{
     content: "";
     position: absolute;
     top: 0;
@@ -59,7 +59,7 @@ img{
     z-index: 1;
     background: rgba(0, 0, 0, 0.4);
     box-shadow: 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
-}
+} 
 
 .showcase-top{
     position: relative;
@@ -84,6 +84,7 @@ img{
 
 .showcase-content{
     position: relative;
+    bottom: 10%;
     margin: 0 26%;
     z-index: 2;
     display: flex;
@@ -92,14 +93,15 @@ img{
     text-align: center;
     align-items: center;
     margin-top: 9rem;
+    
 }
 
-.showcase-content h1{
-    font-weight: 700;
-    font-size: 64px;
+.showcase-content h2{
+ /* font-weight: 700; */
+    font-size: 50px;
     margin: 0 30px;
     max-width: 800px;
-    line-height: 74.5px;
+    line-height: 50px;
 }
 
 .showcase-content h3{
