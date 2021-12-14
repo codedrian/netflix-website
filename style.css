@@ -92,29 +92,35 @@ img{
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 9rem;
+    margin-top: 14rem;
     
 }
 
 .showcase-content h2{
- /* font-weight: 700; */
-    font-size: 50px;
-    margin: 0 30px;
+    font-weight: 700; 
+    font-size: 64px;
+    margin: 0 30px; 
+    width: 100%;
     max-width: 800px;
-    line-height: 50px;
+    line-height: 70px;
+  
 }
 
 .showcase-content h3{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     margin: 16px 0;
+    font-weight: 400;
+    
+    
+    
 }
 
 .showcase-content p{
-    font-size: 19.2px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     padding-top: 0.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .showcase-content input{
@@ -122,7 +128,7 @@ img{
     left: 0;
     bottom: -8vh;
     width: 454px;
-    height: 3rem;
+    height: 63px;
     font-size: 1rem;
     padding-left: 0.5rem;
 }
@@ -148,6 +154,7 @@ img{
 
 .btn-rounded{
     border-radius: 5px;
+    /* height: 30px; */
 }
 
 .showcase-content .btn-lg{
@@ -157,8 +164,11 @@ img{
     padding: 0.5rem 1.2rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    height: 36px;
+    height: 50px;
     width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-0 , 
